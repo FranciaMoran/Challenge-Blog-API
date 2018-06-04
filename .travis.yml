@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy: warm-shelf-10089
+  provider: heroku
+  api_key:
+    secure: qeb8CAz+15cFdLFrEW7NkW78smAiTKIqe+5oHl9uZsJE96uDFoNaOfc1kuDhCo4zDzFLcCeiVOm7VPjEYKzonZjbS09NdV595ZiZVzp1CGOSZDtqopZqQEeF3mQ/4Ux8TI4FIibeOXF4d4PI+/k5FGcL5TArkjRO4CTDz6GJzgdQbxbq+lsjkQ4t9TAw6BW0T9M/7lSsQuTIXmecpkiWIhtffLErSdfag/Ip7KCF8xkkiHNIwByrNLqv1OmIjQ+uxu47XfJgPce3jpkzHkuBL1fyB8ZI5mhC9LDVCePJxO+7Dgc6cI6+wKpO875nFbLQqS/OIQOLEzZJB9uaRHtVrVthNWnsakvZ63lFzhruSEzj4E6MhB9UnzPgff5koItY/JvwByWVyY0eu27IO51s3ERzkiIAa6FYIk92oJMVO3aaOCSKuQBr1h0GEtyogydKQJ7FcngdTp11YoNB+qfIlnDwEd7vOCsEzIwRCdCsPP3qAtd5L0zxQYvp10yIxF9FR62+Oi4EHN/QIsm/iEqfzCcOxh0E1G9i3LdRFYW7IIqgGMGecZJv33+N6AtTt7NZyjQkUv2NIWAENu/ALSp5Nrq5SBO5kYRlzPmuO2CDHoQxqisvB/AbBbA2WjKHfW9Ndvy+RSQ38XYTIn71VdjWeFbaia2WykyikXBIKZmfvpg=
+  app: Challenge-Blog-API
+  on:
+    repo: FranciaMoran/Challenge-Blog-API
